@@ -1,0 +1,46 @@
+body {
+  background: url('https://cdn.pixabay.com/photo/2017/01/16/07/22/keyboard-1983410_960_720.jpg') center center no-repeat;
+  background-size: cover; 
+}
+
+.outer-container {
+  padding: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.form-control {
+  box-shadow: 13px 4px 15px 3px rgba(39, 38, 33, 0.75);
+  -webkit-box-shadow: 13px 4px 15px 3px rgba(95, 33, 33, 0.75);
+  -moz-box-shadow: 13px 4px 15px 3px rgba(121, 17, 17, 0.75);
+}
+
+.cardlist-container {
+  margin-top: 20px;
+  margin-left: 2px;
+  row-gap: 20px;
+}
+
+.form-row {
+  row-gap: 10px;
+}
+
+.card {
+  box-shadow: 13px 4px 15px 3px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 13px 4px 15px 3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 13px 4px 15px 3px rgba(0, 0, 0, 0.75);
+}
+.col-3 {
+  padding: 10px;
+  margin: 20px; 
+}
+
+#root {
+  margin: 150px;
+  display: flex;
+  justify-content: center;
+  min-width: 320px;
+  min-height: 70vh;
+}
+.card-status {
+  color: white;
+}
